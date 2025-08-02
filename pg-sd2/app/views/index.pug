@@ -1,0 +1,17 @@
+extends layout
+block content
+    h1 #{heading}
+    p Welcome to the Software Engineering Coursework Database Application
+    
+    h2 Available Pages:
+    ul
+        li 
+            a(href='/all-students') View All Students
+        li 
+            a(href='/db_test') JSON Students Data
+        li 
+            a(href='/hello/hayder') Dynamic Hello Route
+        li 
+            a(href='/goodbye') Goodbye Route
+    
+    p This application demonstrates database connectivity using Node.js, Express, MySQL, and PUG templating.
